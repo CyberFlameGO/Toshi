@@ -49,7 +49,7 @@ cang-jie = { version = "^0.13", optional = true }
 
 
 [dev-dependencies]
-remove_dir_all = "^0.7"
+remove_dir_all = "^0.8"
 pretty_assertions = "^1"
 tokio-test = "^0.4"
 toshi                  = { path = "../toshi-client", default-features = false, features = ["hyper_client"] }
